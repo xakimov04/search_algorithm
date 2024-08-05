@@ -95,20 +95,26 @@ class _SearchScreenState extends State<SearchScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                ElevatedButton(
-                  onPressed: () =>
-                      _performSearch(_searchController.text, 'Linear Search'),
-                  child: const Text('Linear Search'),
+                Expanded(
+                  child: ElevatedButton(
+                    onPressed: () =>
+                        _performSearch(_searchController.text, 'Linear Search'),
+                    child: const Text('Linear Search'),
+                  ),
                 ),
-                ElevatedButton(
-                  onPressed: () =>
-                      _performSearch(_searchController.text, 'Binary Search'),
-                  child: const Text('Binary Search'),
+                Expanded(
+                  child: ElevatedButton(
+                    onPressed: () =>
+                        _performSearch(_searchController.text, 'Binary Search'),
+                    child: const Text('Binary Search'),
+                  ),
                 ),
-                ElevatedButton(
-                  onPressed: () =>
-                      _performSearch(_searchController.text, 'Jump Search'),
-                  child: const Text('Jump Search'),
+                Expanded(
+                  child: ElevatedButton(
+                    onPressed: () =>
+                        _performSearch(_searchController.text, 'Jump Search'),
+                    child: const Text('Jump Search'),
+                  ),
                 ),
               ],
             ),
