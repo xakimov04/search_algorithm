@@ -51,3 +51,37 @@ void main() {
   print('Jump Search time: ${duration3.inMicroseconds} µs');
 }
 ```
+
+## API
+
+int linearSearch<T extends Comparable>(List<T> list, T key)
+Performs a linear search on the list.
+
+## Parameters:
+
+list: The list to search.
+key: The element to search for.
+Returns: The index of the element if found, otherwise -1.
+int binarySearch<T extends Comparable>(List<T> list, T key)
+Performs a binary search on the sorted list.
+
+## Parameters:
+
+list: The sorted list to search.
+key: The element to search for.
+Returns: The index of the element if found, otherwise -1.
+int jumpSearch<T extends Comparable>(List<T> list, T key)
+Performs a jump search on the sorted list.
+
+## Parameters:
+
+list: The sorted list to search.
+key: The element to search for.
+Returns: The index of the element if found, otherwise -1.
+Duration measureTime(Function function)
+Measures the time taken to execute a function.
+
+## Parameters:
+
+function: The function to measure.
+Returns: The duration taken to execute the function.
