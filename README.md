@@ -14,7 +14,7 @@ Add the following line to your `pubspec.yaml` dependencies section:
 
 ```yaml
 dependencies:
-  search_algorithms: ^1.0.0
+  search_algorithms: ^1.0.1
 ```
 
 ## Usage
