@@ -1,6 +1,6 @@
 name: search_algorithm
 description: A Dart package providing implementations of Binary Search, Linear Search, and Jump Search algorithms with performance measurement.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/xakimov04/search_algorithm
 repository: https://github.com/xakimov04/search_algorithms
 
